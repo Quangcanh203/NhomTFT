@@ -1,0 +1,215 @@
+﻿<div class="row">
+    <div class="col-lg-3 col-md-4">
+        @Html.Partial("_SidebarPartial")
+    </div>
+
+    <div class="col-lg-9 col-md-8 padding-right">
+        <div class="product-details">
+            <!--product-details-->
+            <div class="row">
+                <div class="col-lg-5 col-md-6">
+                    <div class="view-product">
+                        <img src="~/images/@Model.Image" alt="@Model.Name" class="img-fluid rounded" />
+                    </div>
+                    <div id="similar-product" class="carousel slide mt-4" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="#"><img src="images/product-details/similar1.jpg" alt="" class="img-thumbnail"></a>
+                                <a href="#"><img src="images/product-details/similar2.jpg" alt="" class="img-thumbnail"></a>
+                                <a href="#"><img src="images/product-details/similar3.jpg" alt="" class="img-thumbnail"></a>
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <a class="carousel-control-prev" href="#similar-product" role="button" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#similar-product" role="button" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-md-6">
+                    <div class="product-information">
+                        <!--/product-information-->
+                        <h2>@Model.Name</h2>
+                        <span>
+                            <span class="text-primary display-4">US $@Model.Price</span>
+                            <div class="form-group mt-3">
+                                <label for="quantity">Quantity:</label>
+                                <input type="number" id="quantity" name="quantity" value="1" class="form-control w-25 d-inline">
+                            </div>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <button type="button" class="btn btn-warning btn-lg mt-3">
+                                    <i class="fa fa-shopping-cart"></i> Add to cart
+                                </button>
+                            }
+                            else
+                            {
+                                <a class="btn btn-secondary btn-lg mt-3" asp-action="Login" asp-controller="Account">
+                                    <i class="fa fa-sign-in-alt"></i> Login to add to cart
+                                </a>
+                            }
+                        </span>
+                        <p><b>Brand:</b> @Model.Brand.Name</p>
+                        <p><b>Category:</b> @Model.Category.Name</p>
+                        <a href="#"><img src="images/product-details/share.png" class="share img-fluid" alt="Share"></a>
+                    </div><!--/product-information-->
+                </div>
+            </div>
+        </div><!--/product-details-->
+
+        <div class="category-tab shop-details-tab mt-5">
+            <!--category-tab-->
+            <div class="col-sm-12">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#details" data-toggle="tab">Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#companyprofile" data-toggle="tab">Company Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tag" data-toggle="tab">Tag</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews" data-toggle="tab">Reviews (5)</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content mt-4">
+                <div class="tab-pane fade show active" id="details">
+                    <p>@Model.Description</p>
+                </div>
+
+                <div class="tab-pane fade" id="companyprofile">
+                    <p>Company profile content here...</p>
+                </div>
+
+                <div class="tab-pane fade" id="tag">
+                    <p>Tag content here...</p>
+                </div>
+
+                <div class="tab-pane fade" id="reviews">
+                    <div class="col-sm-12">
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-user"></i> EUGEN</li>
+                            <li><i class="fa fa-clock-o"></i> 12:41 PM</li>
+                            <li><i class="fa fa-calendar-o"></i> 31 DEC 2014</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                        <p><b>Write Your Review</b></p>
+                        <form action="#">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email Address">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" placeholder="Your Review"></textarea>
+                            </div>
+                            <b>Rating: </b>
+                            <img src="images/product-details/rating.png" alt="Rating">
+                            <button type="submit" class="btn btn-primary pull-right">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div><!--/category-tab-->
+
+        <div class="recommended_items mt-5">
+            <!--recommended_items-->
+            <h2 class="title text-center">Recommended Items</h2>
+
+            <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="images/home/recommend1.jpg" alt="" class="img-fluid">
+                                        <h2>$56</h2>
+                                        <p>Easy Polo Black Edition</p>
+                                        <button type="button" class="btn btn-warning add-to-cart"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="images/home/recommend2.jpg" alt="" class="img-fluid">
+                                        <h2>$56</h2>
+                                        <p>Easy Polo Black Edition</p>
+                                        <button type="button" class="btn btn-warning add-to-cart"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="images/home/recommend3.jpg" alt="" class="img-fluid">
+                                        <h2>$56</h2>
+                                        <p>Easy Polo Black Edition</p>
+                                        <button type="button" class="btn btn-warning add-to-cart"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="images/home/recommend1.jpg" alt="" class="img-fluid">
+                                        <h2>$56</h2>
+                                        <p>Easy Polo Black Edition</p>
+                                        <button type="button" class="btn btn-warning add-to-cart"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="images/home/recommend2.jpg" alt="" class="img-fluid">
+                                        <h2>$56</h2>
+                                        <p>Easy Polo Black Edition</p>
+                                        <button type="button" class="btn btn-warning add-to-cart"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                    <div class="productinfo text-center">
+                                        <img src="images/home/recommend3.jpg" alt="" class="img-fluid">
+                                        <h2>$56</h2>
+                                        <p>Easy Polo Black Edition</p>
+                                        <button type="button" class="btn btn-warning add-to-cart"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#recommended-item-carousel" role="button" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control-next" href="#recommended-item-carousel" role="button" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+        </div><!--/recommended_items-->
+    </div>
+</div>

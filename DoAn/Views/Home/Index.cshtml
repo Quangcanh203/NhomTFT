@@ -1,0 +1,102 @@
+﻿@model IEnumerable<ProductModel>
+
+<div class="row">
+    <div class="col-lg-3 col-md-4">
+        @Html.Partial("_SidebarPartial")
+    </div>
+
+    <div class="col-lg-9 col-md-8 padding-right">
+        <div class="features_items">
+            <!--features_items-->
+            <h2 class="title text-center mb-4">Featured Items</h2>
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="product-card shadow-sm border rounded">
+                            <a asp-action="Details" asp-controller="Product" asp-route-Id="@item.Id">
+                                <div class="product-image text-center">
+                                    <img src="~/media/products/@item.Image" alt="@item.Name" class="img-fluid" />
+                                </div>
+                            </a>
+                            <div class="product-info p-3 text-center">
+                                <h4 class="product-title">@item.Name</h4>
+                                <h5 class="text-primary">$@item.Price</h5>
+                                <p>Category: @item.Category.Name</p>
+                                <p>Brand: @item.Brand.Name</p>
+                                <div class="mt-3">
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        <a class="btn btn-primary btn-lg" asp-action="Add" asp-controller="Cart" asp-route-Id="@item.Id">
+                                            <i class="fa fa-shopping-cart"></i> Add to cart
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <a class="btn btn-secondary btn-lg" asp-action="Login" asp-controller="Account">
+                                            <i class="fa fa-sign-in-alt"></i> Login to add to cart
+                                        </a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div><!--features_items-->
+    </div>
+</div>
+
+<style>
+    .product-card {
+        background-color: #fff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+
+    .product-image img {
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    .product-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .product-info p {
+        margin: 0;
+        font-size: 14px;
+        color: #777;
+    }
+
+    .btn-primary {
+        background-color: #5cb85c;
+        border-color: #5cb85c;
+    }
+
+        .btn-primary:hover {
+            background-color: #4cae4c;
+            border-color: #4cae4c;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
+
+    .product-info {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+</style>

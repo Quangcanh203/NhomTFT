@@ -1,0 +1,84 @@
+﻿@using DoAn.Models.ViewModel
+@model CartItemViewModel
+
+<h4>Shopping Cart</h4>
+<section id="cart_items">
+    <div class="container">
+        <div class="table-responsive cart_info">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="cart_menu">
+                        <th>Product Name</th>
+                        <th>Image</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.CartItems.Count > 0)
+                    {
+                        @foreach (var item in Model.CartItems)
+                        {
+                            <tr>
+                                <td class="cart_description">
+                                    <h5>@item.ProductName</h5>
+                                </td>
+                                <td class="cart_product text-center">
+                                    <img src="~/media/products/@item.Image" class="img-thumbnail" alt="@item.ProductName" />
+                                </td>
+                                <td class="cart_price text-center">
+                                    <p>@String.Format("{0:0.00}", item.Price)</p>
+                                </td>
+                                <td class="cart_quantity text-center">
+                                    <div class="input-group">
+                                        <a class="btn btn-primary btn-sm" asp-controller="Cart" asp-action="Decrease" asp-route-id="@item.ProductId">-</a>
+                                        <input class="form-control text-center" type="text" name="quantity" value="@item.Quantily" size="2" readonly />
+                                        <a class="btn btn-primary btn-sm" asp-controller="Cart" asp-action="Increase" asp-route-id="@item.ProductId">+</a>
+                                    </div>
+                                </td>
+                                <td class="cart_total text-center">
+                                    <p>@String.Format("{0:0.00}", item.Quantily * item.Price)</p>
+                                </td>
+                                <td class="cart_actions text-center">
+                                    <a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Remove" asp-route-id="@item.ProductId" onclick="return confirmRemoveProduct();">Remove</a>
+                                </td>
+                            </tr>
+                        }
+                        <tr>
+                            <td colspan="4" class="text-right"><strong>Grand Total:</strong></td>
+                            <td colspan="2" class="text-center">
+                                <strong>@String.Format("{0:0.00}", Model.GrandTotal)</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="6" class="text-right">
+                                <a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Clear" onclick="return confirmClearCart();">Clear Cart</a>
+    
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center">
+                                <h5>Your Cart is Empty</h5>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+    function confirmRemoveProduct() {
+        return confirm("Bạn có muốn xóa sản phẩm này?");
+    }
+
+    function confirmClearCart() {
+        return confirm("Bạn có chắc muốn xóa hết sản phẩm có trong giỏ hàng không?");
+    }
+</script>

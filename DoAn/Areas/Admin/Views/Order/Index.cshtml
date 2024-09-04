@@ -1,0 +1,44 @@
+﻿@model IEnumerable<OtherModel>
+
+@{
+    ViewData["Title"] = "Danh sách Đơn hàng";
+}
+
+<h3 class="text-center mt-4">Danh sách Đơn hàng</h3>
+<table class="table table-bordered table-hover mt-3">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Mã Đơn hàng</th>
+            <th scope="col">Email Người dùng</th>
+            <th scope="col">Ngày Đặt hàng</th>
+            <th scope="col">Trạng thái Đơn hàng</th>
+            <th scope="col">Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@item.OrderCode</th>
+                <td>@item.UserName</td>
+                <td>@item.CreateDate.ToString("dd/MM/yyyy")</td>
+                <td>
+                    @if (@item.Status == 1)
+                    {
+                        <span class="text-success">Đơn hàng mới</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Đơn hàng thành công</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="ViewOrder" class="btn btn-warning btn-sm d-inline" asp-controller="Order" asp-route-ordercode="@item.OrderCode">Xem</a>
+                    <form asp-action="Delete" asp-controller="Order" asp-route-id="@item.Id" method="post" style="display:inline;" onsubmit="return confirm('Bạn có chắc chắn muốn xóa Đơn hàng này?');">
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

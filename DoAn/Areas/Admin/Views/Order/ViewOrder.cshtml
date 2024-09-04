@@ -1,0 +1,28 @@
+﻿@model IEnumerable<DoAn.Models.OtherDetail>
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h3>List Order</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Order Code</th>
+            <th scope="col">User Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>#</td>
+                <td scope="row">@item.OrderCode</td>
+                
+            </tr>
+        }
+    </tbody>
+</table>

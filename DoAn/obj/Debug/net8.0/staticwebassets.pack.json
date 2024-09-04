@@ -1,0 +1,473 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DoAn.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DoAn.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\Backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\Backend\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\css\\price-range.css",
+      "PackagePath": "staticwebassets\\css\\price-range.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\js\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\gmaps.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\js\\html5shiv.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\js\\price-range.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\0098bd16-84c1-4755-94fc-d003aef967d0_pc_gvn_-_4060__case_corsair__-_3_cc6e90437cfd447580de3e3438ca8292_grande.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\0098bd16-84c1-4755-94fc-d003aef967d0_pc_gvn_-_4060__case_corsair__-_3_cc6e90437cfd447580de3e3438ca8292_grande.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\1a85eb51-8b5a-4cc9-b002-cb63b291326e_5606a8d0-7258-fd00-258a-0019b53dedb3.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\1a85eb51-8b5a-4cc9-b002-cb63b291326e_5606a8d0-7258-fd00-258a-0019b53dedb3.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\1b3793b9-0ca8-4855-942f-dbbf70752eab_83f5505c-5075-6a00-26f1-001a6e072122.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\1b3793b9-0ca8-4855-942f-dbbf70752eab_83f5505c-5075-6a00-26f1-001a6e072122.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\221cb732-32a9-4b27-8706-c1a7d1ec6cb1_6dab5b5f-498c-7200-160f-001b4928de8f.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\221cb732-32a9-4b27-8706-c1a7d1ec6cb1_6dab5b5f-498c-7200-160f-001b4928de8f.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\2b44cf96-5658-4803-a76a-fa758c4514c0_5e586b65-9871-6700-eb00-00191a88bdc9.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\2b44cf96-5658-4803-a76a-fa758c4514c0_5e586b65-9871-6700-eb00-00191a88bdc9.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\31d46dac-6eec-40a5-a8a4-00716e3161ea_download (2).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\31d46dac-6eec-40a5-a8a4-00716e3161ea_download (2).jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\41715c0b-44c0-4507-9c7e-d77848dea16c_ava_0a4b06eb78ae4686a007ab739e993d74_medium.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\41715c0b-44c0-4507-9c7e-d77848dea16c_ava_0a4b06eb78ae4686a007ab739e993d74_medium.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\43f5cb81-1992-480c-8d0f-bdd16854861d_download (3).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\43f5cb81-1992-480c-8d0f-bdd16854861d_download (3).jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\4472d9e1-7542-4aa6-8a8d-dd4f52820508_02cab719-9a8c-3b00-9324-0018ef296433.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\4472d9e1-7542-4aa6-8a8d-dd4f52820508_02cab719-9a8c-3b00-9324-0018ef296433.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\49cefe13-40be-434b-b130-b5cbaff6cda0_ava_0a4b06eb78ae4686a007ab739e993d74_medium.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\49cefe13-40be-434b-b130-b5cbaff6cda0_ava_0a4b06eb78ae4686a007ab739e993d74_medium.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\4b5f2cf8-62b9-437e-83e0-6ce930da81f5_21e9cdfd-0dbd-8c00-7795-001b4ed77bf5.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\4b5f2cf8-62b9-437e-83e0-6ce930da81f5_21e9cdfd-0dbd-8c00-7795-001b4ed77bf5.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\50162405-deb0-4fc3-8f9f-a90a603baa6d_download (1).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\50162405-deb0-4fc3-8f9f-a90a603baa6d_download (1).jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\50f6d2a9-d832-48d9-a833-1c88744cbcec_e1cde5a5-9a4b-9900-bec9-001947f73bd2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\50f6d2a9-d832-48d9-a833-1c88744cbcec_e1cde5a5-9a4b-9900-bec9-001947f73bd2.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\540c0493-d594-45d7-a673-92526e5f9ebd_OIP.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\540c0493-d594-45d7-a673-92526e5f9ebd_OIP.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\5b5fa9c7-5b2c-483b-91d4-beaafd0ab1d4_pc_gvn_-_4060__case_corsair__-_3_cc6e90437cfd447580de3e3438ca8292_grande.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\5b5fa9c7-5b2c-483b-91d4-beaafd0ab1d4_pc_gvn_-_4060__case_corsair__-_3_cc6e90437cfd447580de3e3438ca8292_grande.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\5dad0c9a-ab40-4c96-be0b-c2b58f74d12e_images.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\5dad0c9a-ab40-4c96-be0b-c2b58f74d12e_images.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\5f38054b-26bc-4e60-8150-e31326240b05_pc_gvn_-_4060__case_corsair__-_3_cc6e90437cfd447580de3e3438ca8292_grande.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\5f38054b-26bc-4e60-8150-e31326240b05_pc_gvn_-_4060__case_corsair__-_3_cc6e90437cfd447580de3e3438ca8292_grande.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\6163fe98-6ab2-46d3-a0e8-c0c46491e996_19309_vo_case_nzxt_h9_flow_white__1_.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\6163fe98-6ab2-46d3-a0e8-c0c46491e996_19309_vo_case_nzxt_h9_flow_white__1_.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\6eb74208-f329-4849-82de-641444948e90_1fe85aab-04ff-6600-d3e8-00198eb39976.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\6eb74208-f329-4849-82de-641444948e90_1fe85aab-04ff-6600-d3e8-00198eb39976.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\8596ef1b-ef21-414f-860a-54fee2dd2780_4f7dd266-28cb-6200-4f16-001b94af7964.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\8596ef1b-ef21-414f-860a-54fee2dd2780_4f7dd266-28cb-6200-4f16-001b94af7964.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\85e61f44-5ba2-4647-b8a9-0a24f747a305_aa5b4096-8816-8b00-e0a6-001931327057.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\85e61f44-5ba2-4647-b8a9-0a24f747a305_aa5b4096-8816-8b00-e0a6-001931327057.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\9125bd1b-adaf-4b3d-8509-429995b1c0dc_download (4).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\9125bd1b-adaf-4b3d-8509-429995b1c0dc_download (4).jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\9af99da2-ec94-42f3-82a6-d4d08305f265_50a71471-f268-2800-f319-001b3f1be14b.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\9af99da2-ec94-42f3-82a6-d4d08305f265_50a71471-f268-2800-f319-001b3f1be14b.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\9e853eae-dd02-4a7d-878f-9491ca71fe9d_95b25f1e-0346-2e01-d29a-001b5f22ea05.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\9e853eae-dd02-4a7d-878f-9491ca71fe9d_95b25f1e-0346-2e01-d29a-001b5f22ea05.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\a9b05084-a2d5-481b-9f04-f6ef84d13cb0_download (5).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\a9b05084-a2d5-481b-9f04-f6ef84d13cb0_download (5).jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\aaea3d0d-7061-4dfc-956a-c603e665b7b9_7e0c7fdd-e69f-f601-b96d-001a6e18c6cc.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\aaea3d0d-7061-4dfc-956a-c603e665b7b9_7e0c7fdd-e69f-f601-b96d-001a6e18c6cc.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\ac8608b4-a678-4053-b91d-6177085c10e5_369047c6-ca0f-3e00-0dc3-001b3f1cab49.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\ac8608b4-a678-4053-b91d-6177085c10e5_369047c6-ca0f-3e00-0dc3-001b3f1cab49.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\b29c9f08-a89d-4428-ae66-e14469e3511f_download (5).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\b29c9f08-a89d-4428-ae66-e14469e3511f_download (5).jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\bfface87-8d68-4830-9727-258584575a49_85d187ca-2828-7b00-a7c2-00193130b0aa.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\bfface87-8d68-4830-9727-258584575a49_85d187ca-2828-7b00-a7c2-00193130b0aa.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\c759b5d8-6b1d-47e0-8c80-1afd1fca9ae0_images.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\c759b5d8-6b1d-47e0-8c80-1afd1fca9ae0_images.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\e20f699a-e9a2-47e3-962c-98fa7ec1ca67_3ba968d1-382a-3900-7bd7-001b3f1c8f84.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\e20f699a-e9a2-47e3-962c-98fa7ec1ca67_3ba968d1-382a-3900-7bd7-001b3f1c8f84.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\eb29b939-dfa7-49c7-bf71-aa57ba5d8b1f_download (4).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\eb29b939-dfa7-49c7-bf71-aa57ba5d8b1f_download (4).jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\ed08e378-52f6-44c0-87a6-44764d1868c8_7bd5b09d-962d-3700-0544-0018b9fbbef1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\ed08e378-52f6-44c0-87a6-44764d1868c8_7bd5b09d-962d-3700-0544-0018b9fbbef1.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\f277ce91-874d-4fb3-9bad-11452aa131ca_81045a75-7e90-9b00-8b7e-001b4ed7ad0e.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\f277ce91-874d-4fb3-9bad-11452aa131ca_81045a75-7e90-9b00-8b7e-001b4ed7ad0e.jpg"
+    },
+    {
+      "Id": "D:\\Code Visua\\DoAn\\DoAn\\wwwroot\\media\\products\\f633f438-5a99-4b75-adf7-c4d0929387e8_48009272-92b7-1000-46ed-001b3edcee5c.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\f633f438-5a99-4b75-adf7-c4d0929387e8_48009272-92b7-1000-46ed-001b3edcee5c.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DoAn.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DoAn.props",
+      "PackagePath": "build\\DoAn.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DoAn.props",
+      "PackagePath": "buildMultiTargeting\\DoAn.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DoAn.props",
+      "PackagePath": "buildTransitive\\DoAn.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

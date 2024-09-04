@@ -1,0 +1,82 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "404 Not Found";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: #333;
+        }
+
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+            .container h1 {
+                font-size: 120px;
+                margin: 0;
+                color: #ff6b6b;
+            }
+
+            .container h2 {
+                font-size: 36px;
+                margin: 10px 0;
+                color: #444;
+            }
+
+            .container p {
+                font-size: 18px;
+                color: #777;
+                margin-bottom: 20px;
+            }
+
+            .container a {
+                display: inline-block;
+                padding: 12px 24px;
+                background-color: #ff6b6b;
+                color: #fff;
+                text-decoration: none;
+                font-size: 16px;
+                border-radius: 5px;
+                transition: background-color 0.3s ease;
+            }
+
+                .container a:hover {
+                    background-color: #ff4b4b;
+                }
+
+            .container img {
+                max-width: 100%;
+                height: auto;
+                margin: 20px 0;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <h2>Ôi! Trang  của  bạn có  vẻ không đúng cho lắm</h2>
+        <p>Trang bạn đang tìm kiếm có thể đã bị xóa, đã thay đổi tên hoặc tạm thời không khả dụng.</p>
+        <a href="@Url.Action("Index", "Home")">Trở Lại  Trang</a>
+        <img src="https://cdn-icons-png.flaticon.com/512/3815/3815529.png" alt="404 Error Image">
+    </div>
+</body>
+</html>

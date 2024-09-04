@@ -1,0 +1,94 @@
+﻿@model IEnumerable<ProductModel>
+
+<div class="row">
+    <div class="col-sm-3">
+        @Html.Partial("_SidebarPartial")
+    </div>
+
+    <div class="col-sm-9 padding-right">
+        <div class="features_items">
+            <!--features_items-->
+            <h2 class="title text-center">Featured Items</h2>
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-sm-4">
+                        <div class="product-image-wrapper">
+                            <div class="single-products">
+                                <a asp-action="Details" asp-controller="Product" asp-route-Id="@item.Id">
+                                    <div class="productinfo text-center">
+                                        <img src="~/media/products/@item.Image" alt="@item.Name" width="100%" />
+                                        <h2>$@item.Price</h2>
+                                        <p>Category: @item.Name</p>
+                                        <p>Brand: @item.Brand.Name</p>
+                                    </div>
+                                </a>
+                                <div class="product-action text-center mt-2">
+                                    @if (User.Identity.IsAuthenticated)
+                                    {
+                                        <a class="btn btn-warning add-to-cart" asp-action="Add" asp-controller="Cart" asp-route-Id="@item.Id"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    }
+                                    else
+                                    {
+                                        <a class="btn btn-secondary" asp-action="Login" asp-controller="Account"><i class="fa fa-sign-in-alt"></i> Login to add to cart</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div><!--features_items-->
+    </div>
+</div>
+
+<style>
+    .product-image-wrapper {
+        border: 1px solid #e1e1e1;
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #fff;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .product-image-wrapper:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+    .single-products img {
+        max-height: 250px;
+        object-fit: cover;
+    }
+
+    .productinfo h2 {
+        font-size: 22px;
+        color: #333;
+        margin: 15px 0;
+    }
+
+    .productinfo p {
+        font-size: 14px;
+        color: #777;
+        margin-bottom: 10px;
+    }
+
+    .product-action .btn-warning {
+        background-color: #ffc107;
+        border-color: #ffc107;
+        color: #333;
+    }
+
+        .product-action .btn-warning:hover {
+            background-color: #e0a800;
+            border-color: #d39e00;
+        }
+
+    .product-action .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+        .product-action .btn-secondary:hover {
+            background-color: #5a6268;
+            border-color: #
